@@ -2,7 +2,7 @@ package com.sample.postgres.service;
 
 import java.util.List;
 import javax.annotation.Resource;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import com.sample.postgres.dao.EmployeeDao;
 import com.sample.postgres.entity.Employee;
 
@@ -13,7 +13,7 @@ import com.sample.postgres.entity.Employee;
  */
 
 
-@Component
+@Service
 public class EmployeeServiceImpl implements EmployeeService{
 	
 	@Resource 
